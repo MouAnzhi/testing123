@@ -1,4 +1,4 @@
-  # loading libraries
+# loading libraries
 library(googleVis)
 library(dplyr)
 library(reshape2)
@@ -6,7 +6,6 @@ library(reshape2)
 
 LineOfTherapyR <- read.csv("~/Data Sciences/Flatiron CLL Data Sample 20160701 (1)/LineOfTherapyR.csv", header=TRUE)
 df<-LineOfTherapyR
-
 df.plot<-data.frame()
 
 for (i in 2: ncol(df)) {
